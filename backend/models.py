@@ -7,7 +7,6 @@ class BookCreate(BaseModel):
     lat: float
     lng: float
     image_url: str | None = None
-    google_books_link: str | None = None
 
 
 class BookMarker(BookCreate):

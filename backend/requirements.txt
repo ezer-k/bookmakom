@@ -3,5 +3,4 @@ uvicorn[standard]
 pydantic
 python-multipart
 openai
-requests
 supabase

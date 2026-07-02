@@ -49,7 +49,6 @@ async def upload_books(
                 title=None,
                 author=None,
                 image_url=None,
-                google_books_link=None,
             )
         ],
     )
