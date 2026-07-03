@@ -1,10 +1,9 @@
 import { useState } from "react";
 import Step1Photo from "./Step1_Photo.jsx";
 import Step2Location from "./Step2_Location.jsx";
-import Step3Confirm from "./Step3_Confirm.jsx";
 import Step4Success from "./Step4_Success.jsx";
 
-const steps = [Step1Photo, Step2Location, Step3Confirm, Step4Success];
+const steps = [Step1Photo, Step2Location, Step4Success];
 
 export default function UploadModal({ onClose }) {
   const [step, setStep] = useState(0);
