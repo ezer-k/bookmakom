@@ -3,4 +3,7 @@ uvicorn[standard]
 pydantic
 python-multipart
 openai
+pandas
+Pillow
+pytesseract
 supabase

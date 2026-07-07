@@ -1,0 +1,7 @@
+matplotlib
+notebook
+opencv-python
+pandas
+Pillow
+pytesseract
+scikit-learn
